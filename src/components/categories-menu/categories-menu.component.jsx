@@ -1,6 +1,6 @@
-import CategoryItem from '../category-item/category-item.component'
+import CategoryItem from "../category-item/category-item.component";
 
-import './categories-menu.styles.scss'
+import "./categories-menu.styles.scss";
 
 const CategoriesMenu = ({ categories }) => {
   return (
@@ -9,7 +9,7 @@ const CategoriesMenu = ({ categories }) => {
         <CategoryItem key={category.id} category={category} />
       ))}
     </div>
-  )
-}
+  );
+};
 
-export default CategoriesMenu
+export default CategoriesMenu;
